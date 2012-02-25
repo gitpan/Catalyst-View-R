@@ -1,5 +1,5 @@
 {
-   "abstract" : "unknown",
+   "abstract" : "A Catalyst view for R",
    "author" : [
       "Eriam Schaffter <eriam@cpan.org>"
    ],
@@ -32,11 +32,14 @@
       },
       "runtime" : {
          "requires" : {
+            "Catalyst::View::TT" : 0,
+            "File::Slurp" : 0,
             "Statistics::R" : 0,
-            "Test::More" : 0
+            "Test::More" : 0,
+            "Test::WWW::Mechanize::Catalyst" : 0
          }
       }
    },
    "release_status" : "testing",
-   "version" : "0.01_1"
+   "version" : "0.01_2"
 }
